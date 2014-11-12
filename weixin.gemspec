@@ -14,4 +14,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency("faraday")
   spec.add_dependency("httpclient")
   spec.add_dependency("json")
+
+  spec.add_development_dependency "minitest", '~> 5'
 end
