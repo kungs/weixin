@@ -39,13 +39,13 @@ Weixin.appkey     = 'YOUR_APPKEY'
 ```ruby
 # required fields 
 params = {
-'bank_type' => 'WX'
-'body' => 'test',
-'fee_type' => '',
-'out_trade_no' => '123456789',
-'total_fee' 1,
-'spbill_create_ip' '127.0.0.1',
-'notify_url' 'http://making.dev'
+  'bank_type'        => 'WX'
+  'body'             => 'test',
+  'fee_type'         => '',
+  'out_trade_no'     => '123456789',
+  'total_fee'        => 1,
+  'spbill_create_ip' => '127.0.0.1',
+  'notify_url'       => 'http://making.dev'
 }
 Weixin::App.prepay_id(params, 'YOUR_ACCESS_TOKEN')
 ```
